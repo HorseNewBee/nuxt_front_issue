@@ -22,3 +22,12 @@ logs
 .env
 .env.*
 !.env.example
+
+# 忽略私钥文件
+server.key
+
+# 忽略自签名证书文件
+server.crt
+
+# 忽略证书签名请求文件
+server.csr
