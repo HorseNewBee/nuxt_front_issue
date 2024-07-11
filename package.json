@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "set HOST=0.0.0.0&& set NODE_TLS_REJECT_UNAUTHORIZED=0&& nuxt dev --https --ssl-cert F:/PyProject/btcVueFront/btc_nuxt_front/server.crt --ssl-key F:/PyProject/btcVueFront/btc_nuxt_front/server.key",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "http-proxy-middleware": "^3.0.0",
+    "https": "^1.0.0",
+    "nuxt": "^3.12.2",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {
+    "vite-plugin-vuetify": "^2.0.3",
+    "vuetify": "^3.6.10"
+  }
+}
