@@ -1,75 +1,43 @@
-# Nuxt 3 Minimal Starter
+# Project Title
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is an overview or description of the project.
 
-## Setup
+## Issue Reproduction
 
-Make sure to install the dependencies:
+This `README.md` is set up to reproduce a specific issue. Below is a detailed description of the problem:
 
-```bash
-# npm
-npm install
+### Problem Description
 
-# pnpm
-pnpm install
+We are encountering an issue with setting up a proxy for a WebSocket server. Specifically, the problem involves the inability to successfully proxy the WebSocket server.
 
-# yarn
-yarn install
+### Steps to Reproduce
 
-# bun
-bun install
-```
+1. Start the WebSocket server.
+2. Configure the proxy to connect to the WebSocket server.
+3. Attempt to establish a connection through the proxy.
+4. Observe the failure to connect.
 
-## Development Server
+### Expected Behavior
 
-Start the development server on `http://localhost:3000`:
+The proxy should successfully connect to the WebSocket server, allowing WebSocket communication to flow through the proxy.
 
-```bash
-# npm
-npm run dev
+### Actual Behavior
 
-# pnpm
-pnpm run dev
+The connection through the proxy fails, preventing any WebSocket communication.
 
-# yarn
-yarn dev
+## Additional Information
 
-# bun
-bun run dev
-```
+This section can include any additional information, logs, or data that might be relevant to resolving the issue.
 
-## Production
+## Contact
 
-Build the application for production:
+If you have any queries or require further assistance regarding this issue, please contact [Your Contact Information].
 
-```bash
-# npm
-npm run build
+## License
 
-# pnpm
-pnpm run build
+Specify the project's license here, if applicable.
 
-# yarn
-yarn build
+---
 
-# bun
-bun run build
-```
+This documentation is part of the issue reproduction for troubleshooting and resolving the WebSocket proxy setup issue.
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
